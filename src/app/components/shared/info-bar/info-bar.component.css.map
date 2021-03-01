@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "info-bar.component.sass"
+    ],
+    "names": [],
+    "file": "info-bar.component.css"
+}

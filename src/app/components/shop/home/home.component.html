@@ -1,0 +1,41 @@
+<div class="container " style="margin-top: 10px; margin-bottom: 20px; border-radius: 16px;">
+
+  <app-main-carousel [slides]="slides"></app-main-carousel>
+
+</div>
+
+<div class="home-1-wrap">
+    <div class="products ">
+        <div class="container" style="    background: #f4f6fd;
+       padding: 20px !important ;
+        border-radius: 16px;">
+            <mat-tab-group>
+
+                <mat-tab  label="Les plus demandés " >
+
+                         <app-product-carousel   [product]="products | slice:0:8"></app-product-carousel>
+                    <br>
+                </mat-tab>
+
+
+
+
+              </mat-tab-group>
+        </div>
+
+      </div>
+      <div class="categories " style=" margin-top: 30px; margin-bottom: 30px;  ">
+          <div class="container" style="    background: #f4f6fd;
+          padding: 25px !important;
+          border-radius: 16px;">
+            <div class="title">
+                <h3>Top catégories  </h3>
+            </div>
+
+            <app-banners></app-banners>
+          </div>
+          </div>
+
+      <app-info-bar></app-info-bar>
+
+</div>

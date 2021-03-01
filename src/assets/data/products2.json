@@ -1,0 +1,254 @@
+[
+  {
+  "id": 1,
+  "name": "Chaise jaune foncé",
+  "price": 175,
+  "salePrice": 160,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/exit1/1.png",
+      "big": "assets/images/product/small/exit1/1.png"
+  },
+  {
+      "small": "assets/images/product/small/exit1/3.png",
+      "big": "assets/images/product/small/exit1/3.png"
+  },
+  {
+      "small": "assets/images/product/small/exit1/4.png",
+      "big": "assets/images/product/small/exit1/4.png"
+  }
+  ],
+
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-1",
+  "newPro": true,
+  "sale": true,
+  "category": "Exit Lights"
+},
+{
+  "id": 2,
+  "name": " Example produit 2",
+  "price": 235,
+  "salePrice": 200,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/exit2/exit1.png",
+      "big": "assets/images/product/small/exit2/exit1.png"
+  },
+  {
+      "small": "assets/images/product/small/exit2/exit2.png",
+      "big": "assets/images/product/small/exit2/exit2.png"
+  },
+  {
+      "small": "assets/images/product/small/exit2/exit3.png",
+      "big": "assets/images/product/small/exit2/exit3.png"
+  },
+  {
+    "small": "assets/images/product/small/exit2/exit4.png",
+    "big": "assets/images/product/small/exit2/exit4.png"
+}
+  ],
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-2",
+  "newPro": true,
+  "sale": true,
+  "category": "category 1"
+},
+{
+  "id": 3,
+  "name": " Example produit 3",
+  "price": 350,
+  "salePrice": 200,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/exit3/1.png",
+      "big": "assets/images/product/small/exit3/1.png"
+  },
+  {
+      "small": "assets/images/product/small/exit3/2.png",
+      "big": "assets/images/product/small/exit3/2.png"
+  },
+  {
+      "small": "assets/images/product/small/exit3/2.png",
+      "big": "assets/images/product/small/exit3/2.png"
+  }
+  ],
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-1",
+  "newPro": true,
+  "sale": true,
+  "category": "category 1"
+},
+{
+  "id": 4,
+  "name": " Example produit 4",
+  "price": 266,
+  "salePrice": 200,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/exit4/exit1.png",
+      "big": "assets/images/product/small/exit4/exit1.png"
+  },
+  {
+      "small": "assets/images/product/small/exit4/exit2.png",
+      "big": "assets/images/product/small/exit4/exit2.png"
+  },
+  {
+      "small": "assets/images/product/small/exit4/exit3.png",
+      "big": "assets/images/product/small/exit4/exit3.png"
+  }
+  ],
+
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-3",
+  "newPro": true,
+  "sale": true,
+  "category": "category 2"
+},
+{
+  "id": 5,
+  "name": "Example produit 5",
+  "price": 88,
+  "salePrice": 70.00,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/data1/data1.png",
+      "big": "assets/images/product/small/data1/data1.png"
+  },
+  {
+      "small": "assets/images/product/small/data1/data2.png",
+      "big": "assets/images/product/small/data1/data2.png"
+  },
+  {
+      "small": "assets/images/product/small/data1/data3.png",
+      "big": "assets/images/product/small/data1/data3.png"
+  }
+  ],
+  "small": [ "assets/images/product/small/exit1/exit1.png", "assets/images/product/small/exit1/exit2.png", "assets/images/product/small/exit1/exit3.png", "assets/images/product/small/exit1/exit4.png" ],
+
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 12,
+  "brand": "Brand-3",
+  "newPro": true,
+  "sale": false,
+  "category": "category 2"
+},
+{
+  "id": 6,
+  "name": "Example produit 5",
+  "price": 100,
+  "salePrice": 200,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/data2/data1.png",
+      "big": "assets/images/product/small/data2/data1.png"
+  },
+  {
+      "small": "assets/images/product/small/data2/data2.png",
+      "big": "assets/images/product/small/data2/data2.png"
+  }
+
+ ],
+
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-5",
+  "newPro": true,
+  "sale": true,
+  "category": "category 3"
+},
+{
+  "id": 7,
+  "name": "Example produit 5",
+  "price": 100,
+  "salePrice": 200,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/driver1/driver1.png",
+      "big": "assets/images/product/small/driver1/driver1.png"
+  },
+  {
+      "small": "assets/images/product/small/driver1/driver2.png",
+      "big": "assets/images/product/small/driver1/driver2.png"
+  },
+  {
+      "small": "assets/images/product/small/driver1/driver3.png",
+      "big": "assets/images/product/small/driver1/driver3.png"
+  },
+  {
+    "small": "assets/images/product/small/driver1/driver4.png",
+    "big": "assets/images/product/small/driver1/driver4.png"
+}
+  ],
+  "small": [ "assets/images/product/small/exit1/exit1.png", "assets/images/product/small/exit1/exit2.png", "assets/images/product/small/exit1/exit3.png", "assets/images/product/small/exit1/exit4.png" ],
+
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-3",
+  "newPro": true,
+  "sale": true,
+  "category": "category 3"
+},
+{
+  "id": 8,
+  "name": "Example produit 5",
+  "price": 850,
+  "salePrice": 700,
+  "discount": 50,
+  "pictures": [
+    {
+      "small": "assets/images/product/small/driver2/driver1.png",
+      "big": "assets/images/product/small/driver2/driver1.png"
+  },
+  {
+      "small": "assets/images/product/small/driver2/driver2.png",
+      "big": "assets/images/product/small/driver2/driver2.png"
+  },
+  {
+      "small": "assets/images/product/small/driver2/driver3.png",
+      "big": "assets/images/product/small/driver2/driver3.png"
+  },
+  {
+    "small": "assets/images/product/small/driver2/driver4.png",
+    "big": "assets/images/product/small/driver2/driver4.png"
+},
+{
+    "small": "assets/images/product/small/driver2/driver5.png",
+    "big": "assets/images/product/small/driver2/driver5.png"
+},
+{
+    "small": "assets/images/product/small/driver2/driver6.png",
+    "big": "assets/images/product/small/driver2/driver6.png"
+}
+  ],
+
+  "shortDetails": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "stock": 5,
+  "brand": "Brand-4",
+  "newPro": true,
+  "sale": true,
+  "category": "category 4"
+}
+
+
+
+]

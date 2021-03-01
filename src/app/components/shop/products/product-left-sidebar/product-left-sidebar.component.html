@@ -1,0 +1,19 @@
+<div class="left-sidebar-wrapper sec-padding "  >
+<div class="container"   >
+  <div class="sidebar-wrapper" fxLayout='row' fxLayout.lt-md="column"   >
+
+        <div fxFlex="100" fxFlex.lt-sm="100" class="all-products" ngClass.gt-sm="p-left" style=" padding:10px ; background: #f4f6fd !important; border-radius: 5px;">
+
+              <div [@Animation]="animation" fxLayout="row wrap" class="products-wrapper"  style="background: #f4f6fd !important;" >
+                  <div *ngFor="let products of allItems | orderBy:sortByOrder | paginate: { itemsPerPage: 12, currentPage: page  }" fxFlex="100" [fxFlex.gt-sm]="viewCol" fxFlex.sm="50" class="col">
+                     <div class="product-box">
+                        <app-product [product]="products"></app-product>
+                     </div>
+                  </div>
+              </div>
+
+
+            </div>
+  </div>
+</div>
+</div>

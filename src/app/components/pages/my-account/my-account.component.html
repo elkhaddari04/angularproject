@@ -1,0 +1,51 @@
+<div class="my-account sec-padding">
+  <div class="container">
+      <mat-card fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="start start"  class="p-0">
+          <div class="my-account-wrap p-0" fxLayout="row" fxLayout.lt-sm="column" fxLayoutAlign="start start" >
+              <div class="login-wrapper pr-50" fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50">
+                  <div class="title">
+                    <h3>Login</h3>
+                  </div>
+                  <form fxLayout="row wrap">
+                      <div  fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                          <mat-form-field class="w-100">
+                              <input matInput placeholder=" email address " #name="ngModel" ngModel name="name" required>
+                              <mat-error *ngIf="name.invalid">Please enter a valid message</mat-error>
+                            </mat-form-field>
+                      </div>
+                      <div  fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                          <mat-form-field class="w-100">
+                              <input matInput placeholder="Password " #email="ngModel" ngModel name="email" required>
+                              <mat-error *ngIf="email.invalid">Please enter a valid message</mat-error>
+                            </mat-form-field>
+                      </div>
+                      <div class="button-wrap" fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                          <button class="btn-project" mat-raised-button color="accent" type="submit">Log in</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="register-wrapper pr-15" fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50">
+                    <div class="title">
+                        <h3>Créer un compte  </h3>
+                      </div>
+                      <div class="register-body">
+                         <form fxLayout="row wrap">
+                            <div  fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                                <mat-form-field class="w-100">
+                                    <input matInput placeholder="Email address" #name="ngModel" ngModel name="name" required>
+                                    <mat-error *ngIf="name.invalid">Please enter a valid message</mat-error>
+                                  </mat-form-field>
+                            </div>
+
+                            <p>En validant, vous acceptez l'intégralité de nos Conditions générales d'utilisation et notamment la mention relative à la protection des données personnelles. Conformément à la loi 09-08, vous disposez d'un droit d'accès, de rectification et d'opposition au traitement de vos données personnelles</p>
+                            <div class="button-wrap" fxFlex="100" fxFlex.gt-sm="100" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                                <button class="btn-project" mat-raised-button color="accent" type="submit">Register</button>
+                              </div>
+                            </form>
+                      </div>
+                  </div>
+        </div>
+      </mat-card>
+
+  </div>
+</div>

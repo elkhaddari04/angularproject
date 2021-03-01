@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "product-left-sidebar.component.sass"
+    ],
+    "names": [],
+    "file": "product-left-sidebar.component.css"
+}

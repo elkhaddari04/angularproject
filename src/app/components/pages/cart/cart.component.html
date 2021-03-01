@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="cart-wrapper sec-padding">
+
+     <div fxLayout="column" fxLayoutAlign="space-around center" *ngIf="!shoppingCartItems.length">
+        <mat-chip-list>
+           <mat-chip color="warn" selected="true">VOUS N'AVEZ AUCUN ARTICLE DANS VOTRE PANIER.</mat-chip>
+        </mat-chip-list>
+     </div>
+
+     <mat-card *ngIf="shoppingCartItems.length > 0"  class="p-0">
+
+        <div class="mat-table cart-table">
+
+           <div class="mat-header-row">
+              <div class="mat-header-cell">Produit</div>
+              <div class="mat-header-cell">Nom</div>
+              <div class="mat-header-cell">Prix</div>
+              <div class="mat-header-cell">Quantité</div>
+              <div class="mat-header-cell">Total</div>
+              <div class="mat-header-cell">Action</div>
+           </div>
+
+           <div *ngFor="let item of shoppingCartItems; let i = index"  class="mat-row">
+              <div class="mat-cell"><img [src]="item.product.pictures[0].small"></div>
+              <div class="mat-cell"><a  class="product-name">{{item.product.name}}</a></div>
+              <div class="mat-cell price">{{item.product.price | number : '1.2-2'}}</div>
+
+              <div class="mat-cell text-muted">
+
+                 <div fxLayout="row" fxLayout.xs="column"  class="text-muted">
+                    <div fxLayout="row" fxLayoutAlign="center start">
+                       <button mat-icon-button matTooltip="Remove" (click)="decrement(item.product)">
+                          <mat-icon>remove</mat-icon>
+                       </button>
+                       <input type="text" name="quantity"  [(ngModel)]="item.quantity" disabled class="form-control input-number">
+                       <button mat-icon-button matTooltip="Add" (click)="increment(item.product)">
+                          <mat-icon>add</mat-icon>
+                       </button>
+                    </div>
+                 </div>
+
+              </div>
+
+              <div class="mat-cell total">{{item.product.price * item.quantity | number : '1.2-2' }}</div>
+              <div class="mat-cell text-center">
+                 <div class="p-1">
+                    <mat-icon (click)="removeItem(item)">close</mat-icon>
+                 </div>
+              </div>
+           </div>
+           <div class="mat-row">
+
+              <div class="mat-cell text-center"><a mat-raised-button  class="btn-project" [routerLink]="['/pages/checkout']" routerLinkActive="router-link-active" >Payez maintenant</a></div>
+           </div>
+        </div>
+     </mat-card>
+  </div>
+</div>

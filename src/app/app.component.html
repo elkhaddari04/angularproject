@@ -1,0 +1,23 @@
+<div class="sophia-app" id="mainDIV" style="height: 100vh;overflow: auto;">
+<mat-sidenav-container fullscreen>
+    <mat-toolbar class="main-topbar"  >
+        <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between center" class="top-bar container" >
+              <div fxLayout="row" class="welcome-message">
+                <div class="widget-text">
+                  <a  > LIVRAISON GRATUITE POUR TOUTES LES COMMANDES DE 200 DHs </a>
+                </div>
+              </div>
+              <div class="widgets-left" fxLayout="row">
+                <div class="widget-text">
+                    <a [routerLink]="['/pages/my-account']" routerLinkActive="router-link-active" > + 212 6 60 54 10 53</a>
+                  </div>
+                <div class="widget-text">
+                    <a [routerLink]="['/pages/my-account']" routerLinkActive="router-link-active" > info@caftan.me    </a>
+                  </div>
+              </div>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    <app-header></app-header>
+ <router-outlet></router-outlet>
+ </mat-sidenav-container>
+</div>

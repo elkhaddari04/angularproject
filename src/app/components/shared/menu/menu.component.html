@@ -1,0 +1,11 @@
+<mat-toolbar-row fxHide fxShow.gt-sm class="container" fxLayout="row"  fxLayout.xs="row" fxLayoutAlign="space-between center">
+  <div class="main-menu" fxLayout="row" fxHide fxShow.gt-sm>
+      <a  mat-button class="mat-button  "  [routerLink]="['/home/one']" style="background:#8a76de; border-radius: 6px;">Accueil</a>
+       <a [routerLink]="['/home/products/all']" routerLinkActive="router-link-active"  mat-button class="mat-button">Produits</a>
+      <a [routerLink]="['/pages/checkout']" routerLinkActive="router-link-active"  mat-button class="mat-button">Payment</a>
+      <a [routerLink]="['/pages/cart']" routerLinkActive="router-link-active"  mat-button class="mat-button">Cart</a>
+      <a [routerLink]="['/pages/my-account']" routerLinkActive="router-link-active"  mat-button class="mat-button">Votre compte</a>
+     </div>
+
+</mat-toolbar-row>
+

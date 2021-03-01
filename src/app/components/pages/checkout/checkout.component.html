@@ -1,0 +1,102 @@
+<div class="container">
+  <div class="checkout sec-padding">
+      <div fxLayout="row wrap" class="">
+          <div class="billing-details  pr-15" fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50">
+            <div class="header-title">
+                <h2>Détails de la facturation </h2>
+            </div>
+
+              <form fxLayout="row wrap">
+
+                  <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="mt-20 pr-5" ngClass.sm="mt-10" ngClass.xs="mt-10">
+                      <mat-form-field class="w-100">
+                          <input matInput placeholder="prenom" #name="ngModel" ngModel name="name" required>
+                          <mat-error *ngIf="name.invalid">Veuillez saisir un message valide</mat-error>
+                        </mat-form-field>
+                  </div>
+
+                  <div  fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50" class="pl-5 mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
+                      <mat-form-field class="w-100">
+                          <input matInput placeholder="nom" #email="ngModel" ngModel name="email" required>
+                          <mat-error *ngIf="email.invalid">Veuillez saisir un message valide</mat-error>
+                        </mat-form-field>
+                  </div>
+
+                  <div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
+                      <mat-form-field class="w-100">
+                          <input matInput placeholder="Nom de l'entreprise" #subject="ngModel" ngModel name="entreprise">
+                        </mat-form-field>
+                  </div>
+
+                  <div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
+                      <mat-form-field class="w-100">
+                          <input matInput placeholder="Address" #address="ngModel" ngModel name="address">
+                          <mat-error *ngIf="address.invalid">Veuillez saisir un message valide</mat-error>
+                        </mat-form-field>
+                  </div>
+
+                  <div  fxFlex="100" fxFlex.gt-sm="100" class="mt-20" ngClass.sm="mt-10" ngClass.xs="mt-10">
+                      <mat-form-field class="w-100">
+                          <input matInput placeholder="ville" #town="ngModel" ngModel name="ville">
+                          <mat-error *ngIf="town.invalid">Veuillez saisir un message valide</mat-error>
+                        </mat-form-field>
+                  </div>
+
+
+
+                  <div class="button-wrap" fxFlex="100" fxFlex.gt-sm="100" class="px-1" ngClass.sm="mt-1" ngClass.xs="mt-1">
+                      <button class="btn-project" mat-raised-button color="accent" type="submit">démarrer</button>
+                    </div>
+                  </form>
+          </div>
+          <div class="mainOrder-wrapper pl-15" fxFlex="100" fxFlex.gt-md="50" fxFlex.md="50">
+            <div class="main-order " >
+              <div class="order-box">
+                  <div class="title-box">
+                      <div>Produit <span class="tl-amount"> Total</span></div>
+                  </div>
+                  <ul class="price-list" *ngIf='buyProducts.length'>
+                    <li *ngFor="let item of buyProducts">
+                       {{ item.product.name }} × {{ item.quantity }}
+                      <span>
+                       {{ item.product.price * item.quantity | currency:productService?.currency:'symbol' }}
+                        </span>
+                    </li>
+                </ul>
+                <ul class="quantity" *ngIf='buyProducts.length <= 0'>
+                  <li class="empty-checkout"> Il n'y a aucun produit dans le panier </li>
+                 </ul>
+                <ul class="total-amount">
+                  <li>
+                    Total <span class="amount">{{ getTotal() | async | currency:productService?.currency:'symbol'}}</span>
+                  </li>
+                  <li *ngIf='buyProducts.length'>
+                    Expédition
+                   <div class="shipping">
+                      <div class="shopping-option">
+                        <mat-radio-group>
+                          <mat-radio-button *ngFor="let payment of payments" [value]="payment">{{payment}}</mat-radio-button>
+                        </mat-radio-group>
+                      </div>
+
+                   </div>
+                  </li>
+              </ul>
+              <ul class="total">
+                <li>Total <span class="count">{{ getTotal() | async | currency:productService?.currency:'symbol'}}</span></li>
+            </ul>
+            <div class="paymentFinal">
+              <mat-radio-group>
+                <mat-radio-button fxLayout="column" *ngFor="let payment of paymantWay" [value]="payment">{{payment}}</mat-radio-button>
+              </mat-radio-group>
+            </div>
+            <div class="order">
+              <button class="btn-project" mat-raised-button color="accent" type="submit">PASSER LA COMMANDE</button>
+            </div>
+               </div>
+          </div>
+          </div>
+
+       </div>
+    </div>
+</div>

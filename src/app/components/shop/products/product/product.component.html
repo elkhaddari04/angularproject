@@ -1,0 +1,43 @@
+<div class="product-item"  >
+  <mat-card fxLayout="column" class="product-style">
+    <div class="product-img">
+        <a class="product-link" [routerLink]="['/home/product', product.id]">
+          <img [src]="product.pictures[0].big" alt="">
+       </a>
+    </div>
+    <div class="product-info-wrapper text-center">
+
+      <div class="price-wrap" fxLayout="row" fxLayoutAlign="center" >
+
+        <p  style="background: #f0f0f0; padding: 5px; border-radius: 6px;">${{product.price | number : '1.2-2'}}</p>
+       </div>
+
+        <div class="title-wrap" style="margin-bottom: 15px;" >
+           <h4>{{product.name}}</h4>
+        </div>
+
+
+
+
+        <div class="btn-wrap" fxLayout="row" fxLayoutAlign="space-between center">
+            <a (click)="addToCart(product)">Ajouter au panier</a>
+        </div>
+
+     </div>
+  </mat-card>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
