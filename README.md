@@ -4,23 +4,23 @@
 <p align="center"> 
   </p>
   <img align="center" src="https://i.imgur.com/5pM3ZCj.png" />
-   </br> 
-##  🚀 HOME PAGE ( https://angularproject-gamma.vercel.app/ )
+  
+ ##  🚀 HOME PAGE ( https://angularproject-gamma.vercel.app/ )
   <img align="center" src="https://i.imgur.com/vZoINjk.png" alt="demo"/>
-   </br> 
-## 🚀 ALL PRODUCTS PAGE  : 
+  
+ ## 🚀 ALL PRODUCTS PAGE  : 
 <img  align="center" src="https://i.imgur.com/sCSuhQH.png" alt="demo"/>
-   </br> 
-## 🚀PAYMENT  PAGE : 
+
+ ## 🚀PAYMENT  PAGE : 
   <img  align="center" src="https://i.imgur.com/0FHrjez.png"/>
-   </br> 
-##   🚀 checkout PAGE : 
+  
+ ##   🚀 checkout PAGE : 
   <img   align="center" src="https://i.imgur.com/GpqqcNZ.png" alt="demo"/>
-   </br> 
-##   🚀 ACCOUNT PAGE  : 
+  
+ ##   🚀 ACCOUNT PAGE  : 
   <img   align="center" src="https://i.imgur.com/ssTt7q3.png" alt="demo"/>
-   </br> 
-## 🚀 Usage
+  
+ ## 🚀 Usage
 Make sure you have [npm and nodejs and angular]
 
 1-  run the commend 
