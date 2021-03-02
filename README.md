@@ -30,12 +30,12 @@ A simple e-commerce single page appliction based on angular freamwork , mainly m
   
  ---  
    
- ## 🚀PAYMENT  PAGE : 
+ ## 🚀 PAYMENT  PAGE : 
   <img  align="center" src="https://i.imgur.com/0FHrjez.png"/>
   
  ---  
   
- ##   🚀 checkout PAGE : 
+ ##   🚀 CHECKOUT  PAGE : 
   <img   align="center" src="https://i.imgur.com/GpqqcNZ.png" alt="demo"/>
   
  ---  
