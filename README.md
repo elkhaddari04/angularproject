@@ -8,7 +8,7 @@
 <p>
 <b align="center" >📝 angular   Version	:  9.0.0  </b> </BR>
 <b align="center" >📌  Files Included : 	typescript Files, CSS Files, angular Files . </b></BR>
-<b align="center" > 👨‍💻  Demo  :  https://motion-land.vercel.app/ </b>
+<b align="center" > 👨‍💻  Demo  :  https://angularproject-seven.vercel.app/home </b>
       </p>
 
 <p>
@@ -20,7 +20,7 @@ A simple e-commerce single page appliction based on angular freamwork , mainly m
   
  ---  
  
- ##  🚀 HOME PAGE ( https://angularproject-gamma.vercel.app/ )
+ ##  🚀 HOME PAGE ( https://angularproject-seven.vercel.app/home)
   <img align="center" src="https://i.imgur.com/vZoINjk.png" alt="demo"/>
   
  ---  
