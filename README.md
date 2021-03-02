@@ -1,8 +1,11 @@
   
 
 <h1 align="center" >   ⭐    Ayoub ELkhaddari    ⭐</h1>
-<p align="center"> 
-  </p>
+<p align="center"></p>
+<p>
+<b align="center" >📝 angular   Version	:  9.0.0  </b> </BR>
+<b align="center" >📌  Files Included : 	typescript Files, CSS Files, angular Files . </b></BR>
+      </p>
   <img align="center" src="https://i.imgur.com/5pM3ZCj.png" />
   
  ##  🚀 HOME PAGE ( https://angularproject-gamma.vercel.app/ )
