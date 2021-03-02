@@ -17,25 +17,39 @@ A simple e-commerce single page appliction based on angular freamwork , mainly m
 
  ---  
   <img align="center" src="https://i.imgur.com/5pM3ZCj.png" />
+  
  ---  
+ 
  ##  🚀 HOME PAGE ( https://angularproject-gamma.vercel.app/ )
   <img align="center" src="https://i.imgur.com/vZoINjk.png" alt="demo"/>
+  
  ---  
+  
  ## 🚀 ALL PRODUCTS PAGE  : 
 <img  align="center" src="https://i.imgur.com/sCSuhQH.png" alt="demo"/>
+  
  ---  
+   
  ## 🚀PAYMENT  PAGE : 
   <img  align="center" src="https://i.imgur.com/0FHrjez.png"/>
+  
  ---  
+  
  ##   🚀 checkout PAGE : 
   <img   align="center" src="https://i.imgur.com/GpqqcNZ.png" alt="demo"/>
+  
  ---  
+  
  ##   🚀 ACCOUNT PAGE  : 
   <img   align="center" src="https://i.imgur.com/ssTt7q3.png" alt="demo"/>
+  
  ---  
+   
  ## 🚀 Usage
 Make sure you have [npm and nodejs and angular]
+  
  ---  
+  
 1-  run the commend 
 
 ```sh
