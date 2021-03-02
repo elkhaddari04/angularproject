@@ -12,21 +12,21 @@
 ##  🚀 HOME PAGE ( https://angularproject-gamma.vercel.app/ )
   <img align="center" src="https://i.imgur.com/vZoINjk.png" alt="demo"/>
   
-## 🚀 ALL PRODUCTS PAGE (  https://angularproject-gamma.vercel.app/home/products/all )
+## 🚀 ALL PRODUCTS PAGE  : 
 
 
 <img  align="center" src="https://i.imgur.com/sCSuhQH.png" alt="demo"/>
 
-## 🚀PAYMENT  PAGE   (  https://angularproject-gamma.vercel.app/pages/cart )
+## 🚀PAYMENT  PAGE : 
      
   <img  align="center" src="https://i.imgur.com/0FHrjez.png"/>
   
-##   🚀 checkout PAGE (  https://angularproject-gamma.vercel.app/pages/checkout )
+##   🚀 checkout PAGE : 
 
 
   <img   align="center" src="https://i.imgur.com/GpqqcNZ.png" alt="demo"/>
 
-##   🚀 ACCOUNT PAGE  (  https://angularproject-gamma.vercel.app/pages/my-account )
+##   🚀 ACCOUNT PAGE  : 
 
   <img   align="center" src="https://i.imgur.com/ssTt7q3.png" alt="demo"/>
 
