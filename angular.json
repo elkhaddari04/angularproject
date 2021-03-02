@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FP-SB-new": {
+    "fp-sb-new": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/FP-SB-new",
+            "outputPath": "dist/fp-sb-new",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "FP-SB-new:build"
+            "browserTarget": "fp-sb-new:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "FP-SB-new:build:production"
+              "browserTarget": "fp-sb-new:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FP-SB-new:build"
+            "browserTarget": "fp-sb-new:build"
           }
         },
         "test": {
@@ -110,7 +110,7 @@
         }
       }
     },
-    "FP-SB-new-e2e": {
+    "fp-sb-new-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -119,11 +119,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "FP-SB-new:serve"
+            "devServerTarget": "fp-sb-new:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "FP-SB-new:serve:production"
+              "devServerTarget": "fp-sb-new:serve:production"
             }
           }
         },
@@ -139,7 +139,7 @@
       }
     }
   },
-  "defaultProject": "FP-SB-new",
+  "defaultProject": "fp-sb-new",
   "cli": {
     "analytics": false
   }

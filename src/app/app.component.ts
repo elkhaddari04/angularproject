@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   ]
   public flag:any;
 
-  title = 'FP-SB-new';
+  title = 'fp-sb-new';
   scrollElem;
 
   constructor(private spinner: NgxSpinnerService, public router: Router) {
