@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ecommerce-sophia-new": {
+    "FP-SB-new": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ecommerce-sophia-new",
+            "outputPath": "dist/FP-SB-new",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ecommerce-sophia-new:build"
+            "browserTarget": "FP-SB-new:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ecommerce-sophia-new:build:production"
+              "browserTarget": "FP-SB-new:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ecommerce-sophia-new:build"
+            "browserTarget": "FP-SB-new:build"
           }
         },
         "test": {
@@ -110,7 +110,7 @@
         }
       }
     },
-    "ecommerce-sophia-new-e2e": {
+    "FP-SB-new-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -119,11 +119,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ecommerce-sophia-new:serve"
+            "devServerTarget": "FP-SB-new:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ecommerce-sophia-new:serve:production"
+              "devServerTarget": "FP-SB-new:serve:production"
             }
           }
         },
@@ -139,7 +139,7 @@
       }
     }
   },
-  "defaultProject": "ecommerce-sophia-new",
+  "defaultProject": "FP-SB-new",
   "cli": {
     "analytics": false
   }

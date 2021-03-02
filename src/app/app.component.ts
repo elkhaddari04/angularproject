@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
   ]
   public flag:any;
 
-  title = 'ecommerce-sophia-new';
+  title = 'FP-SB-new';
   scrollElem;
 
   constructor(private spinner: NgxSpinnerService, public router: Router) {
